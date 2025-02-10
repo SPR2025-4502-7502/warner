@@ -1,0 +1,20 @@
+
+
+
+
+nav {
+
+}
+
+
+body {
+	background-color: rgba(153, 51, 204, 1.0);
+/*	rgb(153,51,204)*/
+}
+
+
+.main-image {
+	max-width: 75%;
+}
+
+/*start of media query*/
