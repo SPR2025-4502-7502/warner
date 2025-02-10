@@ -8,13 +8,23 @@ nav {
 
 
 body {
-	background-color: rgba(153, 51, 204, 1.0);
+	background-color: rgba(153, 51, 204, 0.5);
 /*	rgb(153,51,204)*/
 }
 
 
+.first-page {
+	font-style: italic;
+	color:red;
+}
+
+
+
+
+
 .main-image {
 	max-width: 75%;
+	border-radius: 3000px;
 }
 
 /*start of media query*/
