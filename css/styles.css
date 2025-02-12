@@ -12,6 +12,10 @@ body {
 /*	rgb(153,51,204)*/
 }
 
+p {
+	font-family: "Emilys Candy", serif;
+}
+
 
 .first-page {
 	font-style: italic;
