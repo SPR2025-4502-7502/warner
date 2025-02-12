@@ -12,8 +12,18 @@ body {
 /*	rgb(153,51,204)*/
 }
 
+h1 {
+	font-family: "Staatliches", serif;
+}
+
 p {
 	font-family: "Emilys Candy", serif;
+	font-size: 1.5rem;
+}
+
+.font-example2 {
+	font-family: "Emilys Candy", serif;
+	font-size: 2.0rem;
 }
 
 
