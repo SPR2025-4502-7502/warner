@@ -1,8 +1,16 @@
 
-body {
+nav {
 	display: flex;
-	flex-direction: column;
-	align-items: center;
+	align-content: flex-start;
+	background-color: rgba(0, 0, 0, 0.1);
+	max-width: 800px;
+	margin: auto;
+	font-size: 1rem;
+	border-radius: 0.2rem;
+	text-transform: uppercase;
+}
+
+body {
 	background-color: rgba(52, 134, 235);
 }
 
@@ -14,6 +22,12 @@ h1 {
 p {
 	font-family: "Arvo";
 	background-color: rgba(0, 0, 0, 0.25);
+}
+
+div ul {
+	display: flex;
+	flex-direction: column;
+	align-content: flex-start;
 }
 
 .main-text {
