@@ -8,7 +8,7 @@ nav {
 	font-size: 1rem;
 	border-radius: 0.2rem;
 	text-transform: uppercase;
-	background-color: rgba(0, 0, 0, 0.1);
+	background-color: rgba(255, 192, 203, 0.1);
 }
 
 a {
@@ -23,7 +23,7 @@ body {
 div {
 	display: flex;
 	justify-content: center;
-	background-color: rgba(0, 0, 0, 0.33);
+	background-color: rgba(255, 192, 203, 0.33);
 }
 
 li {
@@ -33,7 +33,7 @@ li {
 .title-text {
 	display: flex;
 	justify-content: center;
-	background-color: rgba(0, 66, 0, 0.66);
+	background-color: rgba(255, 192, 203);
 	font-size: 3rem;
 	color: wheat;
 	font-style: italic;
@@ -44,7 +44,7 @@ li {
 .body-text {
 	display: flex;
 	justify-content: center;
-	background-color: rgba(0, 66, 0, 0.33);
+	background-color: rgba(255, 192, 203, 0.33);
 	font-size: 1.75rem;
 	color: whitesmoke;
 	font-family: Arvo;
@@ -54,7 +54,7 @@ li {
 	display: flex;
 	justify-content: flex-start;
 	flex-direction: column;
-	background-color: rgba(0, 66, 0, 0.33);
+	background-color: rgba(255, 192, 203, 0.33);
 	font-size: 1rem;
 	color: wheat;
 	font-family: Dosis;
