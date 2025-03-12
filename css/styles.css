@@ -2,13 +2,11 @@
 nav {
 	display: flex;
 	justify-content: space-evenly;
-	background-color: ;
 	max-width: 800px;
 	margin: auto;
 	font-size: 1rem;
 	border-radius: 0.2rem;
 	text-transform: uppercase;
-	background-color: rgba(255, 192, 203, 0.1);
 }
 
 a {
@@ -17,25 +15,38 @@ a {
 }
 
 body {
-	background-color: rgba(52, 134, 235);
-}
-
-div {
-	display: flex;
-	justify-content: center;
-	background-color: rgba(255, 192, 203, 0.33);
+	background-color: royalblue;
 }
 
 li {
     list-style: square;
 }
 
+header {
+	margin: 1rem;
+	padding: 1rem;
+	background-color: slategrey;
+	color: navajowhite;
+	border-radius: 5px;
+}
+
+footer {
+	margin: 1rem;
+	padding: 1rem;
+	background-color: slategrey;
+	color: navajowhite;
+	border-radius: 5px;
+}
+
+img {
+	max-width: 75%;
+}
+
 .title-text {
 	display: flex;
 	justify-content: center;
-	background-color: rgba(255, 192, 203);
 	font-size: 3rem;
-	color: wheat;
+	color: navajowhite;
 	font-style: italic;
 	font-weight: bold;
 	font-family: Goblin One;
@@ -43,10 +54,9 @@ li {
 
 .body-text {
 	display: flex;
-	justify-content: center;
-	background-color: rgba(255, 192, 203, 0.33);
+	justify-content: flex-start;
 	font-size: 1.75rem;
-	color: whitesmoke;
+	color: navajowhite;
 	font-family: Arvo;
 }
 
@@ -54,30 +64,19 @@ li {
 	display: flex;
 	justify-content: flex-start;
 	flex-direction: column;
-	background-color: rgba(255, 192, 203, 0.33);
 	font-size: 1rem;
-	color: wheat;
+	color: navajowhite;
 	font-family: Dosis;
 }
 
-.main-image {
-	max-width: 75%;
-}
-
-header {
+.album-intro {
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
 	margin: 1rem;
 	padding: 1rem;
-	background-color: black;
-	color: whitesmoke;
-	border-radius: 10px;
-}
-
-footer {
-	margin: 1rem;
-	padding: 1rem;
-	background-color: black;
-	color: whitesmoke;
-	border-radius: 10px;
+	background-color: #fafad2;
+	border-radius: 1rem;
 }
 
 /*start of media query */
