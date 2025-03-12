@@ -38,10 +38,6 @@ footer {
 	border-radius: 5px;
 }
 
-img {
-	max-width: 75%;
-}
-
 .title-text {
 	display: flex;
 	justify-content: center;
@@ -77,6 +73,20 @@ img {
 	padding: 1rem;
 	background-color: #fafad2;
 	border-radius: 1rem;
+}
+
+.list-image {
+	max-width: 250px;
+	padding-left: 0.5rem;
+	padding-top: 0.5rem;
+}
+
+.list-item {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	box-shadow: inset 0.5rem 1rem #f9f3db;
+	border-radius: 3px;
 }
 
 /*start of media query */
