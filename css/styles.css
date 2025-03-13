@@ -73,29 +73,122 @@ footer {
 	padding: 1rem;
 	background-color: #fafad2;
 	border-radius: 1rem;
+	font-family: Arvo;
+}
+
+.page-title {
+	font-family: Goblin One;
 }
 
 .list-image {
-	max-width: 250px;
+	display: flex;
+	justify-content: flex-start;
+	max-width: 270px;
 	padding-left: 0.5rem;
 	padding-top: 0.5rem;
+    box-shadow: 3px 3px gold;
+    border-radius: 0.3rem;
+}
+
+.main-image {
+	display: flex;
+	align-items: center;
+	max-width: 75%;
 }
 
 .list-item {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	box-shadow: inset 0.5rem 1rem #f9f3db;
+	box-shadow: inset 1rem 1rem #f9f3db;
 	border-radius: 3px;
+	margin-bottom: 1rem;
+}
+
+.list-paragraph {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	margin-left: 0.5rem;
+	font-family: Arvo;
+}
+
+.album-title {
+	margin-left: 1rem;
+	margin-bottom: 0.3rem;
+	font-family: Goblin One;
+}
+
+.artist {
+	margin-left: 1rem;
+	margin-bottom: 0.3rem;
+	font-family: Dosis;
+}
+
+.genius {
+	margin-left: 1rem;
+	margin-bottom: 0.3rem;
+	font-family: Dosis;
+}
+
+.album-blurb {
+	margin-left: 1rem;
+	margin-bottom: 0.3rem;
 }
 
 /*start of media query */
-@media screen and (max-width: 500px){
+@media screen and (max-width: 800px){
 
-	nav{
+	nav {
+		display: flex;
+		flex-direction: column;
+	}
+
+	section {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.list-item {
 		display: flex;
 		flex-direction: column;
 	}
 
 }
 
+@media screen and (max-width: 555px){
+
+	nav {
+		display: flex;
+		flex-direction: column;
+	}
+
+	section {
+		display: flex;
+		flex-direction: column;
+	}	
+
+	.list-image {
+		display: flex;
+		align-content: center;
+		flex-direction: column;
+	}
+}
+
+@media screen and (mobile){
+	nav {
+		display: flex;
+		flex-direction: column;
+	}
+
+	section {
+		display: flex;
+		flex-direction: column;
+	}	
+
+	.list-image {
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+	}
+}
