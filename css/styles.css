@@ -71,7 +71,7 @@ footer {
 	flex-direction: column;
 	margin: 1rem;
 	padding: 1rem;
-	background-color: #fafad2;
+	background-color: hotpink;
 	border-radius: 1rem;
 	font-family: Arvo;
 }
@@ -86,7 +86,7 @@ footer {
 	max-width: 270px;
 	padding-left: 0.5rem;
 	padding-top: 0.5rem;
-    box-shadow: 3px 3px gold;
+    box-shadow: 3px 3px lightcyan;
     border-radius: 0.3rem;
 }
 
@@ -100,7 +100,7 @@ footer {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	box-shadow: inset 1rem 1rem #f9f3db;
+	box-shadow: inset 1rem 1rem hotpink;
 	border-radius: 3px;
 	margin-bottom: 1rem;
 }
