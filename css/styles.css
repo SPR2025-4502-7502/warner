@@ -15,7 +15,7 @@ a {
 }
 
 body {
-	background-color: royalblue;
+	/*background-color: royalblue;*/
 }
 
 li {
@@ -93,7 +93,7 @@ footer {
 .main-image {
 	display: flex;
 	align-items: center;
-	max-width: 75%;
+	max-width: 25%;
 }
 
 .list-item {
