@@ -1,11 +1,7 @@
 
 nav {
 	display: flex;
-	justify-content: space-between;
-	max-width: 800px;
-	margin: auto;
-	font-size: 1rem;
-	border-radius: 0.2rem;
+	justify-content: space-around;
 	text-transform: uppercase;
 }
 
@@ -15,7 +11,7 @@ a {
 }
 
 body {
-	/*background-color: royalblue;*/
+	background-color: royalblue;
 }
 
 li {
@@ -25,7 +21,6 @@ li {
 header {
 	margin: 1rem;
 	padding: 1rem;
-	background-color: slategrey;
 	color: navajowhite;
 	border-radius: 5px;
 }
@@ -33,10 +28,10 @@ header {
 footer {
 	margin: 1rem;
 	padding: 1rem;
-	background-color: slategrey;
 	color: navajowhite;
 	border-radius: 5px;
 }
+
 
 .title-text {
 	display: flex;
@@ -88,12 +83,6 @@ footer {
 	padding-top: 0.5rem;
     box-shadow: 3px 3px lightcyan;
     border-radius: 0.3rem;
-}
-
-.main-image {
-	display: flex;
-	align-items: center;
-	max-width: 25%;
 }
 
 .list-item {
