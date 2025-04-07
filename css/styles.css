@@ -80,7 +80,7 @@ footer {
 	flex-direction: column;
 	margin: 1rem;
 	padding: 1rem;
-	background-color: hotpink;
+	background-color: sandybrown;
 	border-radius: 1rem;
 	font-family: Arvo;
 }
@@ -103,7 +103,7 @@ footer {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	box-shadow: inset 1rem 1rem hotpink;
+	box-shadow: inset 1rem 1rem sandybrown;
 	border-radius: 3px;
 	margin-bottom: 1rem;
 }
@@ -137,6 +137,17 @@ footer {
 .album-blurb {
 	margin-left: 1rem;
 	margin-bottom: 0.3rem;
+}
+
+.phone-number {
+	margin-left: 1rem;
+	color:lightskyblue;
+}
+
+.coffe-blurb {
+	order: 2;
+	margin: auto;
+	font-family: Arvo;
 }
 
 /*start of media query */
