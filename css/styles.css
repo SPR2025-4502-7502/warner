@@ -11,7 +11,8 @@ a {
 }
 
 body {
-	background-color: royalblue;
+	background-image: url(/img/trees.JPG);
+	/*background-color: royalblue;*/
 }
 
 li {
@@ -35,7 +36,8 @@ footer {
 
 .title-text {
 	display: flex;
-	justify-content: center;
+	justify-content: flex-start;
+	padding-left: 3rem;
 	font-size: 3rem;
 	color: navajowhite;
 	font-style: italic;
@@ -45,7 +47,8 @@ footer {
 
 .body-text {
 	display: flex;
-	justify-content: flex-start;
+	align-items: flex-start;
+	margin: auto;
 	font-size: 1.75rem;
 	color: navajowhite;
 	font-family: Arvo;
@@ -58,6 +61,17 @@ footer {
 	font-size: 1rem;
 	color: navajowhite;
 	font-family: Dosis;
+}
+
+.main-content {
+	display: flex;
+	flex-direction: row;
+}
+
+.main-image {
+	display: flex;
+	max-width: 90%;
+	margin: auto;
 }
 
 .album-intro {
