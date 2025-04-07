@@ -181,11 +181,18 @@ footer {
 		flex-direction: column;
 	}	
 
+	body {
+		display: flex;
+		flex-direction: row;
+		font-family: Arvo;
+	}
+
 	.list-image {
 		display: flex;
 		align-content: center;
 		flex-direction: column;
 	}
+
 }
 
 @media screen and (mobile){
