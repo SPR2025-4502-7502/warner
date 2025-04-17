@@ -32,6 +32,11 @@ footer {
 	border-radius: 5px;
 }
 
+main {
+	max-width: 800px;
+	margin: auto;
+}
+
 .lucy-logo {
 	max-width: 3%;
 }
@@ -176,12 +181,39 @@ footer {
 	margin-right: 2rem;
 }
 
-.gallery-image {
-	max-width: 75%;
-	margin-left: 2rem;
-	margin-right: 2rem;
+
+.gallery-image img {
+	display: flex;
+	justify-content: center;
+	max-width: 100%;
 }
 
+
+.button_holder {
+	display: flex;
+	flex-direction: row;
+}
+
+stepper {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+
+button {
+	background-color: navajowhite;
+	margin: 1rem;
+	padding: 1rem;
+	min-width: 3rem;
+	font-size: 1.2rem;
+	border-radius: 0.5rem;
+}
+
+button_next {  }
+button_previous {  }
+
+.stepper {
+
+  }
 
 /*start of media query */
 @media screen and (max-width: 800px){
