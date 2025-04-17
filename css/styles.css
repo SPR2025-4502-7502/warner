@@ -32,6 +32,10 @@ footer {
 	border-radius: 5px;
 }
 
+.lucy-logo {
+	max-width: 3%;
+}
+
 
 .title-text {
 	display: flex;
@@ -48,7 +52,7 @@ footer {
 	display: flex;
 	align-items: flex-start;
 	margin: auto;
-	font-size: 1.75rem;
+	font-size: 1rem;
 	color: navajowhite;
 	font-family: Arvo;
 }
@@ -148,6 +152,36 @@ footer {
 	margin: auto;
 	font-family: Arvo;
 }
+
+.hideThis {
+	display: none;
+}
+
+.gallery-example {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.gallery-title {
+	display: flex;
+	justify-content: center;
+}
+
+.gallery-blurb {
+	display: flex;
+	align-items: center;
+	margin-left: 2rem;
+	margin-right: 2rem;
+}
+
+.gallery-image {
+	max-width: 75%;
+	margin-left: 2rem;
+	margin-right: 2rem;
+}
+
 
 /*start of media query */
 @media screen and (max-width: 800px){
