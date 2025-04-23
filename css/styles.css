@@ -37,8 +37,13 @@ main {
 	margin: auto;
 }
 
+figcaption {
+	color: navajowhite;
+}
+
 .lucy-logo {
-	max-width: 3%;
+	max-width: 5%;
+	margin-left: 1rem;
 }
 
 
@@ -194,9 +199,10 @@ main {
 	flex-direction: row;
 }
 
-stepper {
-	margin-top: 1rem;
-	margin-bottom: 1rem;
+.stepper {
+	display: flex;
+	align-items: center;
+	color: navajowhite;
 }
 
 button {
@@ -210,10 +216,6 @@ button {
 
 button_next {  }
 button_previous {  }
-
-.stepper {
-
-  }
 
 /*start of media query */
 @media screen and (max-width: 800px){
