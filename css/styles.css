@@ -7,7 +7,7 @@ nav {
 
 a {
 	text-decoration: none;
-	color: pink;
+	color: lightpink;
 }
 
 body {
@@ -65,13 +65,22 @@ figcaption {
 	margin-left: 1rem;
 }
 
+.trees {
+	background-image: url("../img/bgtrees.jpg");
+	background-size: 100%;
+}
+
+.site-head {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
 
 .title-text {
-	display: flex;
-	justify-content: flex-start;
-	padding-left: 3rem;
 	font-size: 3rem;
-	color: navajowhite;
+	padding-left: 2rem;
+	color: black;
 	font-style: italic;
 	font-weight: bold;
 	font-family: Goblin One;
@@ -82,7 +91,7 @@ figcaption {
 	align-items: flex-start;
 	margin: auto;
 	font-size: 1rem;
-	color: navajowhite;
+	color: black;
 	font-family: Arvo;
 }
 
@@ -104,6 +113,7 @@ figcaption {
 	display: flex;
 	max-width: 90%;
 	margin: auto;
+	border-image: 1rem;
 }
 
 .album-intro {
@@ -112,7 +122,7 @@ figcaption {
 	flex-direction: column;
 	margin: 1rem;
 	padding: 1rem;
-	background-color: sandybrown;
+	background-color: navajowhite;
 	border-radius: 1rem;
 	font-family: Arvo;
 }
@@ -127,15 +137,16 @@ figcaption {
 	max-width: 270px;
 	padding-left: 0.5rem;
 	padding-top: 0.5rem;
-    box-shadow: 3px 3px lightcyan;
-    border-radius: 0.3rem;
+  abox-shadow: 3px 3px lightcyan;
+  border-radius: 0.3rem;
 }
 
 .list-item {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	box-shadow: inset 1rem 1rem sandybrown;
+	background-color: navajowhite;
+	box-shadow: inset 1rem 1rem royalblue;
 	border-radius: 3px;
 	margin-bottom: 1rem;
 }
