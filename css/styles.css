@@ -311,6 +311,8 @@ button_previous {  }
 	}
 
 	body {
+		display: flex;
+		flex-direction: column;
 		background-color: royalblue;
 	}
 }
