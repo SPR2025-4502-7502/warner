@@ -309,4 +309,8 @@ button_previous {  }
 		align-items: center;
 		flex-direction: column;
 	}
+
+	body {
+		background-color: royalblue;
+	}
 }
