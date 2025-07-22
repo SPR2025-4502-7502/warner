@@ -30,6 +30,7 @@ footer {
 	padding: 1rem;
 	color: navajowhite;
 	border-radius: 5px;
+	justify-content: space-around;
 }
 
 main {
