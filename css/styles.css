@@ -62,16 +62,6 @@ figcaption {
   font-size: 2rem;
 }
 
-.lucy-logo {
-	max-width: 5%;
-	margin-left: 1rem;
-}
-
-.trees {
-	background-image: url("../img/bgtrees.jpg");
-	background-size: 100%;
-}
-
 .site-head {
 	display: flex;
 	flex-direction: row;
